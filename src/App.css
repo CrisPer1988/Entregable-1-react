@@ -1,0 +1,63 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    width: 500px;
+    height: 380px;
+    background-color: rgb(241, 241, 241);
+    display: grid;
+    grid-template-columns: 2.8em 1fr;
+}
+
+.box__quote {
+    padding-top:1rem ;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-family:'Arial Narrow Bold', sans-serif;
+
+}
+
+.box__author {
+    text-align: end;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    cursor: pointer; 
+}
+
+.box__author:hover {
+    letter-spacing: 0.2rem;
+}
+
+.box__btn {
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.box__btn:hover {
+    transform: scale(1.1);
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.bx {
+    font-size: 40px;
+    grid-row: 1/4;
+
+}
