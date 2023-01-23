@@ -27,8 +27,9 @@ function App() {
       handleClick={handleClick} 
       colorRandom={colorRandom}
       />
-      
+    <a className='link' href="https://github.com/CrisPer1988/Entregable-1-react" target="_blank">"Aqui esta mi codigo"</a>
     </div>
+    
   )
 }
 
